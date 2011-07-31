@@ -19,10 +19,12 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "closest_fibonacci.gemspec",
     "lib/closest_fibonacci.rb",
     "test/helper.rb",
     "test/test_closest_fibonacci.rb"
