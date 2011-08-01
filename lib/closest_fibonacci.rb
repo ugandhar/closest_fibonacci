@@ -4,11 +4,11 @@ class Fixnum
     fn = 0
     fn1 , fn2 = 0 , 1
     if self == 0
-      return 0
+      return nil
     elsif self == 1
-      return 1
+      return 0
     else
-      while self >= fn
+      while self > fn
         fn = fn1 + fn2
         fn1, fn2   = fn2, fn
       end
