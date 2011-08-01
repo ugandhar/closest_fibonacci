@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["ugandhar"]
-  s.date = %q{2011-07-31}
+  s.date = %q{2011-08-01}
   s.description = %q{ Adds instance method closest_fibonacci to Fixnum class. This results in every object of Fixnum to output the maximum fibonacci number less than or equal to that object }
   s.email = %q{ugandharc18@gmail.com}
   s.extra_rdoc_files = [
