@@ -1,8 +1,8 @@
 == Closest Fibonacci
    This gem adds instance method 'closest_fibonacci' to Fixnum class. 
    This results in an object of Fixnum when sent closest_fibonacci message to output the maximum fibonacci number less than that object.
-    \<b>Note</b>  'closest_fibonacci' message sent to non-positive Fixnum object returns nil.
-    \<b>Example</b> puts 2.closest_fibonacci ==> 1
+    Note:  'closest_fibonacci' message sent to non-positive Fixnum object returns nil.
+    Example: puts 2.closest_fibonacci ==> 1
 
 == Copyright
 
