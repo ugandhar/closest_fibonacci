@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   ]
   s.files = [
     ".document",
+    ".rspec",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
@@ -25,7 +26,9 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "closest_fibonacci.gemspec",
-    "lib/closest_fibonacci.rb"
+    "lib/closest_fibonacci.rb",
+    "spec/closest_fibonacci.rb",
+    "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/ugandhar/closest_fibonacci}
   s.licenses = ["MIT"]
