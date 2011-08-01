@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["ugandhar"]
   s.date = %q{2011-08-01}
-  s.description = %q{ Adds instance method closest_fibonacci to Fixnum class. This results in every object of Fixnum to output the maximum fibonacci number less than or equal to that object }
+  s.description = %q{ Adds instance method 'closest_fibonacci' to Fixnum class. This results in every object of Fixnum to output the maximum fibonacci number less than that object }
   s.email = %q{ugandharc18@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -34,7 +34,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.6.2}
-  s.summary = %q{closest_fibonacci method returns maximum fibonacci number less than or equal to the receving object}
+  s.summary = %q{'closest_fibonacci' method returns maximum fibonacci number less than the receving object}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
