@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "closest_fibonacci"
   gem.homepage = "http://github.com/ugandhar/closest_fibonacci"
   gem.license = "MIT"
-  gem.summary = %Q{ closest_fibonacci method returns maximum fibonacci number less than or equal to the receving object}
-  gem.description = %Q{ Adds instance method closest_fibonacci to Fixnum class. This results in every object of Fixnum to output the maximum fibonacci number less than or equal to that object }
+  gem.summary = %Q{ 'closest_fibonacci' method returns maximum fibonacci number less than the receving object}
+  gem.description = %Q{ Adds instance method 'closest_fibonacci' to Fixnum class. This results in every object of Fixnum to output the maximum fibonacci number less than that object }
   gem.email = "ugandharc18@gmail.com"
   gem.authors = ["ugandhar"]
   # dependencies defined in Gemfile
